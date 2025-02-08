@@ -58,6 +58,9 @@
         var mail = frm.mailid.value;
         if(reg.test(mail))
         {
+            return true;
+        }
+        else{
             alert("Invalid mail");
             return false;
         }   
